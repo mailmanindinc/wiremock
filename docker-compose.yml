@@ -1,0 +1,8 @@
+version: "2"
+services:
+  wiremock:
+    build:
+      context: .
+    network_mode: bridge
+    ports:
+      - 8939:8080
