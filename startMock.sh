@@ -1,3 +1,4 @@
+#!/bin/sh
 pwd
 mkdir mappings
 mkdir mocks
